@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+*.local
+
+.aws-sam/
+samconfig.toml.bak
+
+.next/
+out/
+next-env.d.ts
+
+.DS_Store
+Thumbs.db
