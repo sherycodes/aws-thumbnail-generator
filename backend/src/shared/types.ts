@@ -29,3 +29,8 @@ export const ALLOWED_CONTENT_TYPES = [
 
 export const MAX_UPLOAD_BYTES = 10 * 1024 * 1024;
 export const MIN_UPLOAD_BYTES = 1024;
+
+export interface CreateUploadBody {
+  filename?: string;
+  contentType?: string;
+}
