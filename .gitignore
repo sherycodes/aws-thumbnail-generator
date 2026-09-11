@@ -5,6 +5,7 @@ node_modules/
 
 .aws-sam/
 samconfig.toml.bak
+cdk.out
 
 .next/
 out/
