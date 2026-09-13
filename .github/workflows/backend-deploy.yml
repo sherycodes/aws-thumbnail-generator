@@ -5,6 +5,7 @@ on:
     paths:
       - "backend/**"
       - ".github/workflows/backend-deploy.yml"
+  workflow_dispatch:
 
 permissions:
   id-token: write
