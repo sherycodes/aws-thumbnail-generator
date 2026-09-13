@@ -43,7 +43,7 @@ Resources:
             Condition:
               StringEquals:
                 token.actions.githubusercontent.com:aud: sts.amazonaws.com
-                token.actions.githubusercontent.com:sub: !Sub "repo:${GitHubOrg}/${RepoName}:ref:refs/heads/${BranchName}"
+                token.actions.githubusercontent.com:sub: !Sub "repo:${GitHubOrg}*/*${RepoName}*:ref:refs/heads/${BranchName}"
       Policies:
         - PolicyName: AssumeCdkBootstrapRoles
           PolicyDocument:
